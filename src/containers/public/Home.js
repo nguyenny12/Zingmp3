@@ -1,12 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
 
-function Home(props) {
-  return (
-    <div>Home</div>
-  )
-}
+const Home = () => {
+	return <div className='border-dashed border-2 border-sky-500'>Home</div>;
+};
 
-
-
-export default Home
+export default Home;
