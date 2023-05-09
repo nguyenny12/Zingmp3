@@ -3,8 +3,10 @@ import { HeaderSearch } from "../../components";
 
 const Home = () => {
   return (
-    <div className="border-dashed border-2 border-sky-500 overflow-y-auto">
-      <HeaderSearch />
+    <div className="overflow-y-auto ">
+      <div className="h-[70px] bg-red-500 flex items-center">
+        <HeaderSearch />
+      </div>
     </div>
   );
 };
